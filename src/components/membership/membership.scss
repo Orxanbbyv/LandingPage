@@ -1,0 +1,58 @@
+.members {
+
+    .info {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 91px;
+        padding: 0px 102px;
+        
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            
+            span {
+                font-weight: 700;
+            }
+            
+            h6 {
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+        
+        .annual {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        color: #787573;
+        margin-top: 78px;
+    }
+}
+
+.card {
+    width: 351px;
+    height: 193px;
+    p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #55524E;
+        text-transform: lowercase;
+        span {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px; 
+            color: #000000;
+        }
+    }
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    gap: 90px;
+    padding: 64px 184px 0px 102px;
+}
+}
